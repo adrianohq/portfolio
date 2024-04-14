@@ -8,7 +8,9 @@ const Sidebar = () => (
   <aside>
     <SidebarContainer>
       <Avatar />
-      <Title fontSize={20}>Adriano Henrique</Title>
+      <Title type="primary" fontSize={20}>
+        Adriano Henrique
+      </Title>
       <Paragraph type="secondary" fontSize={16}>
         adrianohq
       </Paragraph>

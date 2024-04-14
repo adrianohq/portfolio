@@ -7,5 +7,5 @@ export const Title = styled.h3<Props>`
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
   font-weight: bold;
   margin-bottom: 16px;
-  text-align: center;
+  text-align: ${(props) => (props.type === 'primary' ? 'center' : 'start')};
 `
